@@ -16,7 +16,10 @@ function UserTable() {
   const [users, setUsers] = useState([
     { id: 1, avatar: 'https://masterpiecer-images.s3.yandex.net/384435935fc311eea1697a2f0d1382ba:upscaled', name: "Усмон", city: "Душанбе", status: "Активен" },
     { id: 2, avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKttGRFuFPcOJgtePukcpo3rmmRUlcxn3_rg&s', name: "Ануш", city: "Худчанд", status: "Неактивен" },
-    { id: 3, avatar: 'https://e7.pngegg.com/pngimages/904/660/png-clipart-anime-manga-black-and-white-desktop-manga-boy-black-hair-monochrome.png', name: "Мухаммад али", city: "Кулоб", status: "Неактивен" }
+    { id: 3, avatar: 'https://e7.pngegg.com/pngimages/904/660/png-clipart-anime-manga-black-and-white-desktop-manga-boy-black-hair-monochrome.png', name: "Мухаммад али", city: "Кулоб", status: "Неактивен" },
+    { id: 4, avatar: 'https://masterpiecer-images.s3.yandex.net/384435935fc311eea1697a2f0d1382ba:upscaled', name: "Усмон", city: "Душанбе", status: "Активен" },
+    { id: 5, avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKttGRFuFPcOJgtePukcpo3rmmRUlcxn3_rg&s', name: "Ануш", city: "Худчанд", status: "Неактивен" },
+    { id: 6, avatar: 'https://e7.pngegg.com/pngimages/904/660/png-clipart-anime-manga-black-and-white-desktop-manga-boy-black-hair-monochrome.png', name: "Мухаммад али", city: "Кулоб", status: "Неактивен" }
   ]);
 
   const [searchTerm, setSearchTerm] = useState('');
